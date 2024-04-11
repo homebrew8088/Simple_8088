@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 20000 15000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J2
+U 1 1 6363F9C3
+P 3975 4050
+F 0 "J2" H 4082 4917 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 4082 4826 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 4125 4050 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 4125 4050 50  0001 C CNN
+	1    3975 4050
+	1    0    0    -1  
+$EndComp
+Text Label 4575 3450 0    50   ~ 0
+POWER_SUPPLY
+Text Label 3975 4950 0    50   ~ 0
+GND
+$Comp
+L Switch:SW_Push_DPDT SW1
+U 1 1 6364076E
+P 5775 4000
+F 0 "SW1" H 5775 4485 50  0000 C CNN
+F 1 "SW_Push_DPDT" H 5775 4394 50  0000 C CNN
+F 2 "My:6 PIN DTDP" H 5775 4200 50  0001 C CNN
+F 3 "~" H 5775 4200 50  0001 C CNN
+	1    5775 4000
+	1    0    0    -1  
+$EndComp
+Text Label 5575 3800 2    50   ~ 0
+5+
+Text Label 5975 3900 0    50   ~ 0
+POWER_SUPPLY
+$Comp
+L Connector_Generic:Conn_01x22 J3
+U 1 1 6364E93A
+P 8150 5075
+F 0 "J3" H 8230 5117 50  0000 L CNN
+F 1 "Conn_01x22" H 8230 5026 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 8150 5075 50  0001 C CNN
+F 3 "~" H 8150 5075 50  0001 C CNN
+	1    8150 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x22 J4
+U 1 1 636509A5
+P 11175 4975
+F 0 "J4" H 11093 6692 50  0000 C CNN
+F 1 "Conn_01x22" H 11093 6601 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 11175 4975 50  0001 C CNN
+F 3 "~" H 11175 4975 50  0001 C CNN
+	1    11175 4975
+	-1   0    0    -1  
+$EndComp
+Text Label 10275 5175 0    50   ~ 0
+A0
+Text Label 10275 5075 0    50   ~ 0
+A1
+Text Label 10275 4975 0    50   ~ 0
+A2
+Text Label 10275 4875 0    50   ~ 0
+A3
+Text Label 10275 4775 0    50   ~ 0
+A4
+Text Label 10275 4675 0    50   ~ 0
+A5
+Text Label 10275 4575 0    50   ~ 0
+A6
+Text Label 10275 4475 0    50   ~ 0
+A7
+Text Label 10275 5975 0    50   ~ 0
+D0
+Text Label 10275 5875 0    50   ~ 0
+D1
+Text Label 10275 5775 0    50   ~ 0
+D2
+Text Label 10275 5675 0    50   ~ 0
+D3
+Text Label 10275 5575 0    50   ~ 0
+D4
+Text Label 10275 5475 0    50   ~ 0
+D5
+Text Label 10275 5375 0    50   ~ 0
+D6
+Text Label 10275 5275 0    50   ~ 0
+D7
+$Comp
+L Connector_Generic:Conn_02x22_Counter_Clockwise J?
+U 1 1 66187CE2
+P 9975 5075
+F 0 "J?" H 10025 6292 50  0000 C CNN
+F 1 "Conn_02x22_Counter_Clockwise" H 10025 6201 50  0000 C CNN
+F 2 "My:2x22_PIN_EDGE_CARD" H 9975 5075 50  0001 C CNN
+F 3 "~" H 9975 5075 50  0001 C CNN
+	1    9975 5075
+	1    0    0    -1  
+$EndComp
+Text Label 10275 4075 0    50   ~ 0
+5+
+Text Label 10275 4175 0    50   ~ 0
+GND
+Text Label 10275 4275 0    50   ~ 0
+IORD
+Text Label 10275 4375 0    50   ~ 0
+IOWR
+Text Label 10275 6175 0    50   ~ 0
+5+
+Text Label 10275 6075 0    50   ~ 0
+GND
+Text Label 11375 5075 0    50   ~ 0
+A0
+Text Label 11375 4975 0    50   ~ 0
+A1
+Text Label 11375 4875 0    50   ~ 0
+A2
+Text Label 11375 4775 0    50   ~ 0
+A3
+Text Label 11375 4675 0    50   ~ 0
+A4
+Text Label 11375 4575 0    50   ~ 0
+A5
+Text Label 11375 4475 0    50   ~ 0
+A6
+Text Label 11375 4375 0    50   ~ 0
+A7
+Text Label 11375 5875 0    50   ~ 0
+D0
+Text Label 11375 5775 0    50   ~ 0
+D1
+Text Label 11375 5675 0    50   ~ 0
+D2
+Text Label 11375 5575 0    50   ~ 0
+D3
+Text Label 11375 5475 0    50   ~ 0
+D4
+Text Label 11375 5375 0    50   ~ 0
+D5
+Text Label 11375 5275 0    50   ~ 0
+D6
+Text Label 11375 5175 0    50   ~ 0
+D7
+Text Label 11375 3975 0    50   ~ 0
+5+
+Text Label 11375 4075 0    50   ~ 0
+GND
+Text Label 11375 4175 0    50   ~ 0
+IORD
+Text Label 11375 4275 0    50   ~ 0
+IOWR
+Text Label 11375 6075 0    50   ~ 0
+5+
+Text Label 11375 5975 0    50   ~ 0
+GND
+Text Label 7950 5175 2    50   ~ 0
+A0_
+Text Label 7950 5075 2    50   ~ 0
+A1_
+Text Label 7950 4975 2    50   ~ 0
+A2_
+Text Label 7950 4875 2    50   ~ 0
+A3_
+Text Label 7950 4775 2    50   ~ 0
+A4_
+Text Label 7950 4675 2    50   ~ 0
+A5_
+Text Label 7950 4575 2    50   ~ 0
+A6_
+Text Label 7950 4475 2    50   ~ 0
+A7_
+Text Label 7950 5975 2    50   ~ 0
+D0_
+Text Label 7950 5875 2    50   ~ 0
+D1_
+Text Label 7950 5775 2    50   ~ 0
+D2_
+Text Label 7950 5675 2    50   ~ 0
+D3_
+Text Label 7950 5575 2    50   ~ 0
+D4_
+Text Label 7950 5475 2    50   ~ 0
+D5_
+Text Label 7950 5375 2    50   ~ 0
+D6_
+Text Label 7950 5275 2    50   ~ 0
+D7_
+Text Label 7950 4075 2    50   ~ 0
+5+
+Text Label 7950 4175 2    50   ~ 0
+GND
+Text Label 7950 4275 2    50   ~ 0
+IORD_
+Text Label 7950 4375 2    50   ~ 0
+IOWR_
+Text Label 7950 6175 2    50   ~ 0
+5+
+Text Label 7950 6075 2    50   ~ 0
+GND
+Text Label 9775 5175 2    50   ~ 0
+A0_
+Text Label 9775 5075 2    50   ~ 0
+A1_
+Text Label 9775 4975 2    50   ~ 0
+A2_
+Text Label 9775 4875 2    50   ~ 0
+A3_
+Text Label 9775 4775 2    50   ~ 0
+A4_
+Text Label 9775 4675 2    50   ~ 0
+A5_
+Text Label 9775 4575 2    50   ~ 0
+A6_
+Text Label 9775 4475 2    50   ~ 0
+A7_
+Text Label 9775 5975 2    50   ~ 0
+D0_
+Text Label 9775 5875 2    50   ~ 0
+D1_
+Text Label 9775 5775 2    50   ~ 0
+D2_
+Text Label 9775 5675 2    50   ~ 0
+D3_
+Text Label 9775 5575 2    50   ~ 0
+D4_
+Text Label 9775 5475 2    50   ~ 0
+D5_
+Text Label 9775 5375 2    50   ~ 0
+D6_
+Text Label 9775 5275 2    50   ~ 0
+D7_
+Text Label 9775 4075 2    50   ~ 0
+5+
+Text Label 9775 4175 2    50   ~ 0
+GND
+Text Label 9775 4275 2    50   ~ 0
+IORD_
+Text Label 9775 4375 2    50   ~ 0
+IOWR_
+Text Label 9775 6175 2    50   ~ 0
+5+
+Text Label 9775 6075 2    50   ~ 0
+GND
+$EndSCHEMATC
